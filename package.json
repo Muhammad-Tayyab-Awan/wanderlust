@@ -1,13 +1,14 @@
 {
-  "engines": {
-    "node": "18.19.1"
-  },
   "name": "majorproject",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammad-Tayyab-Awan/majorproject.git"
   },
   "keywords": [],
   "author": "",
