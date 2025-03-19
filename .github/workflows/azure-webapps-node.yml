@@ -46,7 +46,7 @@ jobs:
       run: |
         npm install --force
         npm run test --if-present
-        node run start
+        npm run start
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v4
